@@ -1,6 +1,6 @@
-import Directory from './components/directory/directory.component';
+import Directory from '../../components/directory/directory.component';
 
-const App = () => {
+const Home = () => {
 	const categories = [
 		{
 			id: 1,
@@ -14,19 +14,17 @@ const App = () => {
 		},
 		{
 			id: 3,
-			title: 'shoes',
+			title: 'sneakers',
 			imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
 		},
 		{
 			id: 4,
 			title: 'womens',
-			size: 'large',
 			imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
 		},
 		{
 			id: 5,
 			title: 'mens',
-			size: 'large',
 			imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
 		},
 	];
@@ -34,4 +32,4 @@ const App = () => {
 	return <Directory categories={categories} />;
 };
 
-export default App;
+export default Home;
